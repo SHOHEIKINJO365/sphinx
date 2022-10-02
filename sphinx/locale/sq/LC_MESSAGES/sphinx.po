@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-25 00:23+0000\n"
+"POT-Creation-Date: 2022-10-02 00:30+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2021-2022\n"
 "Language-Team: Albanian (http://www.transifex.com/sphinx-doc/sphinx-1/language/sq/)\n"
@@ -87,55 +87,55 @@ msgstr "dështoi: %s"
 msgid "No builder selected, using default: html"
 msgstr "S’u përzgjodh montues, po përdoret parazgjedhja: html"
 
-#: sphinx/application.py:364
+#: sphinx/application.py:361
 msgid "succeeded"
 msgstr "doli me sukses"
 
-#: sphinx/application.py:365
+#: sphinx/application.py:362
 msgid "finished with problems"
 msgstr "u përfundua me probleme"
 
-#: sphinx/application.py:369
+#: sphinx/application.py:366
 #, python-format
 msgid "build %s, %s warning (with warnings treated as errors)."
 msgstr "montimi %s, % sinjalizim (me sinjalizime të trajtuara si gabime)."
 
-#: sphinx/application.py:371
+#: sphinx/application.py:368
 #, python-format
 msgid "build %s, %s warnings (with warnings treated as errors)."
 msgstr "montimi %s, %s sinjalizime (me sinjalizime të trajtuara si gabime)."
 
-#: sphinx/application.py:374
+#: sphinx/application.py:371
 #, python-format
 msgid "build %s, %s warning."
 msgstr "build %s, %s warning."
 
-#: sphinx/application.py:376
+#: sphinx/application.py:373
 #, python-format
 msgid "build %s, %s warnings."
 msgstr "montimi %s, %s sinjalizime."
 
-#: sphinx/application.py:380
+#: sphinx/application.py:377
 #, python-format
 msgid "build %s."
 msgstr "montimi %s."
 
-#: sphinx/application.py:602
+#: sphinx/application.py:599
 #, python-format
 msgid "node class %r is already registered, its visitors will be overridden"
 msgstr "klasa %r e nyjeve është e regjistruar tashmë, vizitorët e saj do të anashkalohen"
 
-#: sphinx/application.py:681
+#: sphinx/application.py:678
 #, python-format
 msgid "directive %r is already registered, it will be overridden"
 msgstr "direktiva %r është e regjistruar tashmë, do të anashkalohet"
 
-#: sphinx/application.py:703 sphinx/application.py:725
+#: sphinx/application.py:700 sphinx/application.py:722
 #, python-format
 msgid "role %r is already registered, it will be overridden"
 msgstr "roli %r është e regjistruar tashmë, do të anashkalohet"
 
-#: sphinx/application.py:1288
+#: sphinx/application.py:1285
 #, python-format
 msgid ""
 "the %s extension does not declare if it is safe for parallel reading, "
@@ -143,12 +143,12 @@ msgid ""
 "explicit"
 msgstr "zgjerimi %s nuk deklaron nëse është i parrezik për lexim paralel, po merret se s’është - ju lutemi, kërkojini autorin të zgjerimit ta kontrollojë dhe ta bëjë këtë shprehimisht"
 
-#: sphinx/application.py:1292
+#: sphinx/application.py:1289
 #, python-format
 msgid "the %s extension is not safe for parallel reading"
 msgstr "zgjerimi %s s’është i sigurt për lexim paralel"
 
-#: sphinx/application.py:1295
+#: sphinx/application.py:1292
 #, python-format
 msgid ""
 "the %s extension does not declare if it is safe for parallel writing, "
@@ -156,70 +156,70 @@ msgid ""
 "explicit"
 msgstr "zgjerimi %s nuk deklaron nëse është i parrezik për shkrim paralel, po merret se s’është - ju lutemi, kërkojini autorin të zgjerimit ta kontrollojë dhe ta bëjë këtë shprehimisht"
 
-#: sphinx/application.py:1299
+#: sphinx/application.py:1296
 #, python-format
 msgid "the %s extension is not safe for parallel writing"
 msgstr "zgjerimi %s s’është i sigurt për shkrim paralel"
 
-#: sphinx/application.py:1307 sphinx/application.py:1311
+#: sphinx/application.py:1304 sphinx/application.py:1308
 #, python-format
 msgid "doing serial %s"
 msgstr ""
 
-#: sphinx/config.py:169
+#: sphinx/config.py:170
 #, python-format
 msgid "config directory doesn't contain a conf.py file (%s)"
 msgstr "drejtoria e formësimeve nuk përmban një kartelë conf.py (%s)"
 
-#: sphinx/config.py:178
+#: sphinx/config.py:179
 msgid ""
 "Invalid configuration value found: 'language = None'. Update your "
 "configuration to a valid language code. Falling back to 'en' (English)."
 msgstr "U gjet vlerë e pavlefshme formësimi: 'language = Asnjë'. Përditësojeni formësimin tuaj me një kod të vlefshëm gjuhe. Përkohësisht po përdoret 'en' (anglisht)."
 
-#: sphinx/config.py:207
+#: sphinx/config.py:208
 #, python-format
 msgid ""
 "cannot override dictionary config setting %r, ignoring (use %r to set "
 "individual elements)"
 msgstr "s’mund të anashkalohet rregullim formësimi fjalorthi %r, po shpërfillet (për të ujdisur elemente individuale, përdorni %r)"
 
-#: sphinx/config.py:216
+#: sphinx/config.py:217
 #, python-format
 msgid "invalid number %r for config value %r, ignoring"
 msgstr "numër %r i pavlefshëm për vlerë formësimi %r, po shpërfillet"
 
-#: sphinx/config.py:221
+#: sphinx/config.py:222
 #, python-format
 msgid "cannot override config setting %r with unsupported type, ignoring"
 msgstr "s’mund të anashkalohet rregullim formësimi %r me një lloj të pambuluar, po shpërfillet"
 
-#: sphinx/config.py:250
+#: sphinx/config.py:251
 #, python-format
 msgid "unknown config value %r in override, ignoring"
 msgstr "vlerë e panjohur formësimi %r te anashkalimi, po shpërfillet"
 
-#: sphinx/config.py:278
+#: sphinx/config.py:279
 #, python-format
 msgid "No such config value: %s"
 msgstr "S’ka vlerë të tillë formësimi: %s"
 
-#: sphinx/config.py:302
+#: sphinx/config.py:303
 #, python-format
 msgid "Config value %r already present"
 msgstr "Vlerë formësimi %r e pranishme tashmë"
 
-#: sphinx/config.py:351
+#: sphinx/config.py:352
 #, python-format
 msgid "There is a syntax error in your configuration file: %s\n"
 msgstr "Ka një gabim sintakse te kartela juaj e formësimit: %s\n"
 
-#: sphinx/config.py:354
+#: sphinx/config.py:355
 msgid ""
 "The configuration file (or one of the modules it imports) called sys.exit()"
 msgstr "Kartela e formësimit (ose një nga modulet që ajo importon) thirri sys.exit()"
 
-#: sphinx/config.py:361
+#: sphinx/config.py:362
 #, python-format
 msgid ""
 "There is a programmable error in your configuration file:\n"
@@ -227,57 +227,57 @@ msgid ""
 "%s"
 msgstr "Ka një gabim të programueshëm te kartela juaj e formësimit:\n\n%s"
 
-#: sphinx/config.py:387
+#: sphinx/config.py:388
 #, python-format
 msgid ""
 "The config value `source_suffix' expects a string, list of strings, or "
 "dictionary. But `%r' is given."
 msgstr "Vlera e formësimit `source_suffix' pret një varg, një listë vargjesh, ose një fjalor. Por është dhënë `%r'."
 
-#: sphinx/config.py:406
+#: sphinx/config.py:407
 #, python-format
 msgid "Section %s"
 msgstr "Ndarja %s"
 
-#: sphinx/config.py:407
+#: sphinx/config.py:408
 #, python-format
 msgid "Fig. %s"
 msgstr "Figura %s"
 
-#: sphinx/config.py:408
+#: sphinx/config.py:409
 #, python-format
 msgid "Table %s"
 msgstr "Tabela %s"
 
-#: sphinx/config.py:409
+#: sphinx/config.py:410
 #, python-format
 msgid "Listing %s"
 msgstr ""
 
-#: sphinx/config.py:446
+#: sphinx/config.py:447
 msgid ""
 "The config value `{name}` has to be a one of {candidates}, but `{current}` "
 "is given."
 msgstr "Vlera e formësimit `{name}` duhet të jetë një nga {candidates}, por është dhënë `{current}`."
 
-#: sphinx/config.py:464
+#: sphinx/config.py:465
 msgid ""
 "The config value `{name}' has type `{current.__name__}'; expected "
 "{permitted}."
 msgstr "Vlera e formësimit `{name}' është e llojit `{current.__name__}'; pritej {permitted}."
 
-#: sphinx/config.py:477
+#: sphinx/config.py:478
 msgid ""
 "The config value `{name}' has type `{current.__name__}', defaults to "
 "`{default.__name__}'."
 msgstr "Vlera e formësimit `{name}' është e llojit `{current.__name__}', si parazgjedhje merr `{default.__name__}'."
 
-#: sphinx/config.py:487
+#: sphinx/config.py:488
 #, python-format
 msgid "primary_domain %r not found, ignored."
 msgstr "s’u gjet primary_domain %r, po shpërfillet."
 
-#: sphinx/config.py:499
+#: sphinx/config.py:500
 msgid ""
 "Since v2.0, Sphinx uses \"index\" as root_doc by default. Please add "
 "\"root_doc = 'contents'\" to your conf.py."
@@ -312,12 +312,12 @@ msgid ""
 "cannot be built with the loaded version (%s)."
 msgstr "Ky projekt lyp zgjerimin %s të paktën nën versionin %s dhe prandaj s’mund të montohet me versionin e ngarkuar (%s)."
 
-#: sphinx/highlighting.py:136
+#: sphinx/highlighting.py:138
 #, python-format
 msgid "Pygments lexer name %r is not known"
 msgstr ""
 
-#: sphinx/highlighting.py:162
+#: sphinx/highlighting.py:164
 #, python-format
 msgid "Could not lex literal_block as \"%s\". Highlighting skipped."
 msgstr ""
@@ -529,8 +529,8 @@ msgstr "s’u gjet figurë e përshtatshme për montuesin %s: %s"
 msgid "building [mo]: "
 msgstr "po montohet [mo]: "
 
-#: sphinx/builders/__init__.py:225 sphinx/builders/__init__.py:567
-#: sphinx/builders/__init__.py:594
+#: sphinx/builders/__init__.py:225 sphinx/builders/__init__.py:575
+#: sphinx/builders/__init__.py:602
 msgid "writing output... "
 msgstr "po shkruhet përfundim… "
 
@@ -544,85 +544,90 @@ msgstr "krejt kartelat po %d"
 msgid "targets for %d po files that are specified"
 msgstr "objektiva për kartela po %d që janë specifikuar"
 
-#: sphinx/builders/__init__.py:259
+#: sphinx/builders/__init__.py:260
 #, python-format
 msgid "targets for %d po files that are out of date"
 msgstr "objektiva për kartela po %d që janë të papërditësuara"
 
-#: sphinx/builders/__init__.py:266
+#: sphinx/builders/__init__.py:269
 msgid "all source files"
 msgstr "krejt kartelat burim"
 
-#: sphinx/builders/__init__.py:278
+#: sphinx/builders/__init__.py:279
+#, python-format
+msgid "file %r given on command line does not exist, "
+msgstr ""
+
+#: sphinx/builders/__init__.py:284
 #, python-format
 msgid ""
 "file %r given on command line is not under the source directory, ignoring"
 msgstr "kartela %r e dhënë te rresht urdhrash s’gjendet te drejtori burim, po shpërfillet"
 
-#: sphinx/builders/__init__.py:282
+#: sphinx/builders/__init__.py:290
 #, python-format
-msgid "file %r given on command line does not exist, ignoring"
-msgstr "kartela %r e dhënë te rresht urdhrash s’ekziston, po shpërfillet"
+msgid "file %r given on command line is not a valid document, ignoring"
+msgstr ""
 
-#: sphinx/builders/__init__.py:293
+#: sphinx/builders/__init__.py:299
 #, python-format
 msgid "%d source files given on command line"
 msgstr "kartela burim %d dhënë te rresht urdhrash"
 
-#: sphinx/builders/__init__.py:303
+#: sphinx/builders/__init__.py:311
 #, python-format
 msgid "targets for %d source files that are out of date"
 msgstr "objektiva për kartela burim %d që janë të papërditësuara"
 
-#: sphinx/builders/__init__.py:314 sphinx/builders/gettext.py:238
+#: sphinx/builders/__init__.py:322 sphinx/builders/gettext.py:238
 #, python-format
 msgid "building [%s]: "
 msgstr "po montohet [%s]: "
 
-#: sphinx/builders/__init__.py:321
+#: sphinx/builders/__init__.py:329
 msgid "looking for now-outdated files... "
 msgstr "po shihet për kartela të sapovjetruara… "
 
-#: sphinx/builders/__init__.py:326
+#: sphinx/builders/__init__.py:334
 #, python-format
 msgid "%d found"
 msgstr "U gjet %d"
 
-#: sphinx/builders/__init__.py:328
+#: sphinx/builders/__init__.py:336
 msgid "none found"
 msgstr "s’u gjet gjë"
 
-#: sphinx/builders/__init__.py:333
+#: sphinx/builders/__init__.py:341
 msgid "pickling environment"
 msgstr ""
 
-#: sphinx/builders/__init__.py:339
+#: sphinx/builders/__init__.py:347
 msgid "checking consistency"
 msgstr "po kontrollohet njëtrajtshmëria"
 
-#: sphinx/builders/__init__.py:343
+#: sphinx/builders/__init__.py:351
 msgid "no targets are out of date."
 msgstr "s’ka objektiva të vjetruar."
 
-#: sphinx/builders/__init__.py:382
+#: sphinx/builders/__init__.py:390
 msgid "updating environment: "
 msgstr "po përditësohet mjedisi: "
 
-#: sphinx/builders/__init__.py:403
+#: sphinx/builders/__init__.py:411
 #, python-format
 msgid "%s added, %s changed, %s removed"
 msgstr "%s të shtuar, %s të ndryshuar, %s të hequr"
 
-#: sphinx/builders/__init__.py:441 sphinx/builders/__init__.py:453
+#: sphinx/builders/__init__.py:449 sphinx/builders/__init__.py:461
 msgid "reading sources... "
 msgstr "po lexohen burime… "
 
-#: sphinx/builders/__init__.py:545
+#: sphinx/builders/__init__.py:553
 #, python-format
 msgid "docnames to write: %s"
 msgstr "emra dokumentesh për shkrim: %s"
 
-#: sphinx/builders/__init__.py:554 sphinx/builders/singlehtml.py:145
+#: sphinx/builders/__init__.py:562 sphinx/builders/singlehtml.py:145
 msgid "preparing documents"
 msgstr "po përgatiten dokumente"
 
@@ -1076,7 +1081,7 @@ msgstr "html_add_permalinks është nxjerrë nga përdorimi që me v3.5.0. Ju lu
 msgid ""
 "Support for emitting HTML 4 output is deprecated and will be removed in "
 "Sphinx 7. (\"html4_writer=True detected in configuration options)"
-msgstr ""
+msgstr "Mbulimi për prodhim përfundimi në HTML 4 është nxjerrë nga përdorim dhe do të hiqet me Sphinx 7. (\"html4_writer=True pikasur te mundësi formësimi)"
 
 #: sphinx/builders/html/__init__.py:1374
 #, python-format
@@ -1345,25 +1350,20 @@ msgstr ""
 msgid "run Pdb on exception"
 msgstr "xhiro Pdb, në rast përjashtimesh"
 
-#: sphinx/cmd/build.py:219
-#, python-format
-msgid "cannot find files %r"
-msgstr "s’gjenden dot kartela %r"
-
-#: sphinx/cmd/build.py:222
+#: sphinx/cmd/build.py:213
 msgid "cannot combine -a option and filenames"
 msgstr "s’mund të ndërthuret një mundësi -a dhe emra kartelash"
 
-#: sphinx/cmd/build.py:243
+#: sphinx/cmd/build.py:234
 #, python-format
 msgid "cannot open warning file %r: %s"
 msgstr "s’hapet dot kartelë sinjalizimesh %r: %s"
 
-#: sphinx/cmd/build.py:253
+#: sphinx/cmd/build.py:244
 msgid "-D option argument must be in the form name=value"
 msgstr "argumenti i mundësisë -D duhet të jetë në formën emër=vlerë"
 
-#: sphinx/cmd/build.py:260
+#: sphinx/cmd/build.py:251
 msgid "-A option argument must be in the form name=value"
 msgstr "argumenti i mundësisë -A duhet të jetë në formën emër=vlerë"
 
@@ -1889,7 +1889,7 @@ msgid "%s (C %s)"
 msgstr "%s (C %s)"
 
 #: sphinx/domains/c.py:3348 sphinx/domains/cpp.py:7423
-#: sphinx/domains/python.py:436 sphinx/ext/napoleon/docstring.py:751
+#: sphinx/domains/python.py:437 sphinx/ext/napoleon/docstring.py:751
 msgid "Parameters"
 msgstr "Parametra"
 
@@ -1898,12 +1898,12 @@ msgid "Return values"
 msgstr ""
 
 #: sphinx/domains/c.py:3354 sphinx/domains/cpp.py:7432
-#: sphinx/domains/javascript.py:246 sphinx/domains/python.py:448
+#: sphinx/domains/javascript.py:247 sphinx/domains/python.py:449
 msgid "Returns"
 msgstr "Kthime"
 
-#: sphinx/domains/c.py:3356 sphinx/domains/javascript.py:248
-#: sphinx/domains/python.py:450
+#: sphinx/domains/c.py:3356 sphinx/domains/javascript.py:249
+#: sphinx/domains/python.py:451
 msgid "Return type"
 msgstr "Lloj kthimi"
 
@@ -1916,7 +1916,7 @@ msgid "variable"
 msgstr "ndryshore"
 
 #: sphinx/domains/c.py:3752 sphinx/domains/cpp.py:7835
-#: sphinx/domains/javascript.py:355 sphinx/domains/python.py:1197
+#: sphinx/domains/javascript.py:358 sphinx/domains/python.py:1200
 msgid "function"
 msgstr "funksion"
 
@@ -1989,12 +1989,12 @@ msgstr "Parametra Gjedhesh"
 msgid "%s (C++ %s)"
 msgstr "%s (C++ %s)"
 
-#: sphinx/domains/cpp.py:7426 sphinx/domains/javascript.py:243
+#: sphinx/domains/cpp.py:7426 sphinx/domains/javascript.py:244
 msgid "Throws"
 msgstr ""
 
-#: sphinx/domains/cpp.py:7833 sphinx/domains/javascript.py:357
-#: sphinx/domains/python.py:1199
+#: sphinx/domains/cpp.py:7833 sphinx/domains/javascript.py:360
+#: sphinx/domains/python.py:1202
 msgid "class"
 msgstr "klasë"
 
@@ -2006,58 +2006,58 @@ msgstr "koncept"
 msgid "template parameter"
 msgstr "parametër gjedheje"
 
-#: sphinx/domains/javascript.py:142
+#: sphinx/domains/javascript.py:143
 #, python-format
 msgid "%s() (built-in function)"
 msgstr "%s() (funksion i brendshëm)"
 
-#: sphinx/domains/javascript.py:143 sphinx/domains/python.py:859
+#: sphinx/domains/javascript.py:144 sphinx/domains/python.py:860
 #, python-format
 msgid "%s() (%s method)"
 msgstr "%s() (metodë %s)"
 
-#: sphinx/domains/javascript.py:145
+#: sphinx/domains/javascript.py:146
 #, python-format
 msgid "%s() (class)"
 msgstr "%s() (klasë)"
 
-#: sphinx/domains/javascript.py:147
+#: sphinx/domains/javascript.py:148
 #, python-format
 msgid "%s (global variable or constant)"
 msgstr "%s ( ndryshore globale ose konstante)"
 
-#: sphinx/domains/javascript.py:149 sphinx/domains/python.py:944
+#: sphinx/domains/javascript.py:150 sphinx/domains/python.py:945
 #, python-format
 msgid "%s (%s attribute)"
 msgstr "%s (atribut %s)"
 
-#: sphinx/domains/javascript.py:240
+#: sphinx/domains/javascript.py:241
 msgid "Arguments"
 msgstr "Argumente"
 
-#: sphinx/domains/javascript.py:315
+#: sphinx/domains/javascript.py:317
 #, python-format
 msgid "%s (module)"
 msgstr "%s (modul)"
 
-#: sphinx/domains/javascript.py:356 sphinx/domains/python.py:1201
+#: sphinx/domains/javascript.py:359 sphinx/domains/python.py:1204
 msgid "method"
 msgstr "metodë"
 
-#: sphinx/domains/javascript.py:358 sphinx/domains/python.py:1198
+#: sphinx/domains/javascript.py:361 sphinx/domains/python.py:1201
 msgid "data"
 msgstr "të dhëna"
 
-#: sphinx/domains/javascript.py:359 sphinx/domains/python.py:1204
+#: sphinx/domains/javascript.py:362 sphinx/domains/python.py:1207
 msgid "attribute"
 msgstr "atribut"
 
-#: sphinx/domains/javascript.py:360 sphinx/domains/python.py:51
-#: sphinx/domains/python.py:1206
+#: sphinx/domains/javascript.py:363 sphinx/domains/python.py:51
+#: sphinx/domains/python.py:1209
 msgid "module"
 msgstr "modul"
 
-#: sphinx/domains/javascript.py:391
+#: sphinx/domains/javascript.py:394
 #, python-format
 msgid "duplicate %s description of %s, other %s in %s"
 msgstr "përshkrim %s i përsëdytur i %s, tjetër %s në %s"
@@ -2084,7 +2084,7 @@ msgstr "operator"
 msgid "object"
 msgstr "objekt"
 
-#: sphinx/domains/python.py:55 sphinx/domains/python.py:1200
+#: sphinx/domains/python.py:55 sphinx/domains/python.py:1203
 msgid "exception"
 msgstr "përjashtim"
 
@@ -2096,129 +2096,129 @@ msgstr "deklarim"
 msgid "built-in function"
 msgstr "funksion i brendshëm"
 
-#: sphinx/domains/python.py:441
+#: sphinx/domains/python.py:442
 msgid "Variables"
 msgstr "Ndryshore"
 
-#: sphinx/domains/python.py:445
+#: sphinx/domains/python.py:446
 msgid "Raises"
 msgstr ""
 
-#: sphinx/domains/python.py:702 sphinx/domains/python.py:848
+#: sphinx/domains/python.py:703 sphinx/domains/python.py:849
 #, python-format
 msgid "%s() (in module %s)"
 msgstr "%s() (te moduli %s)"
 
-#: sphinx/domains/python.py:762 sphinx/domains/python.py:940
-#: sphinx/domains/python.py:991
+#: sphinx/domains/python.py:763 sphinx/domains/python.py:941
+#: sphinx/domains/python.py:992
 #, python-format
 msgid "%s (in module %s)"
 msgstr "%s (te moduli %s)"
 
-#: sphinx/domains/python.py:764
+#: sphinx/domains/python.py:765
 #, python-format
 msgid "%s (built-in variable)"
 msgstr "%s (ndryshore e brendshme)"
 
-#: sphinx/domains/python.py:789
+#: sphinx/domains/python.py:790
 #, python-format
 msgid "%s (built-in class)"
 msgstr "%s (klasë e brendshme)"
 
-#: sphinx/domains/python.py:790
+#: sphinx/domains/python.py:791
 #, python-format
 msgid "%s (class in %s)"
 msgstr "%s (klasë te %s)"
 
-#: sphinx/domains/python.py:831
+#: sphinx/domains/python.py:832
 msgid ""
 "Using the :property: flag with the py:method directiveis deprecated, use "
 "\".. py:property::\" instead."
-msgstr ""
+msgstr "Përdorimi i shenjës :property: me direktivën py:method është nxjerrë nga përdorimi, në vend të saj përdorni “.. py:property::”."
 
-#: sphinx/domains/python.py:853
+#: sphinx/domains/python.py:854
 #, python-format
 msgid "%s() (%s class method)"
 msgstr "%s() (metodë klase %s)"
 
-#: sphinx/domains/python.py:855 sphinx/domains/python.py:995
+#: sphinx/domains/python.py:856 sphinx/domains/python.py:996
 #, python-format
 msgid "%s (%s property)"
 msgstr "%s (veti %s)"
 
-#: sphinx/domains/python.py:857
+#: sphinx/domains/python.py:858
 #, python-format
 msgid "%s() (%s static method)"
 msgstr "%s() (metodë statike %s)"
 
-#: sphinx/domains/python.py:1126
+#: sphinx/domains/python.py:1129
 msgid "Python Module Index"
 msgstr "Tregues Modulesh Python"
 
-#: sphinx/domains/python.py:1127
+#: sphinx/domains/python.py:1130
 msgid "modules"
 msgstr "module"
 
-#: sphinx/domains/python.py:1176
+#: sphinx/domains/python.py:1179
 msgid "Deprecated"
 msgstr "Nxjerrë nga përdorimi"
 
-#: sphinx/domains/python.py:1202
+#: sphinx/domains/python.py:1205
 msgid "class method"
 msgstr "metodë klase"
 
-#: sphinx/domains/python.py:1203
+#: sphinx/domains/python.py:1206
 msgid "static method"
 msgstr "metodë statike"
 
-#: sphinx/domains/python.py:1205
+#: sphinx/domains/python.py:1208
 msgid "property"
 msgstr "veti"
 
-#: sphinx/domains/python.py:1263
+#: sphinx/domains/python.py:1266
 #, python-format
 msgid ""
 "duplicate object description of %s, other instance in %s, use :noindex: for "
 "one of them"
 msgstr "përshkrim i përsëdytur objekti për %s, instancë tjetër te %s, përdorni :noindex: për një prej tyre"
 
-#: sphinx/domains/python.py:1383
+#: sphinx/domains/python.py:1386
 #, python-format
 msgid "more than one target found for cross-reference %r: %s"
 msgstr "për ndërreferencën %r u gjet më shumë se një objektiv: %s"
 
-#: sphinx/domains/python.py:1444
+#: sphinx/domains/python.py:1447
 msgid " (deprecated)"
 msgstr " (nxjerrë nga përdorimi)"
 
-#: sphinx/domains/rst.py:121 sphinx/domains/rst.py:177
+#: sphinx/domains/rst.py:122 sphinx/domains/rst.py:178
 #, python-format
 msgid "%s (directive)"
 msgstr "%s (direktivë)"
 
-#: sphinx/domains/rst.py:178 sphinx/domains/rst.py:182
+#: sphinx/domains/rst.py:179 sphinx/domains/rst.py:183
 #, python-format
 msgid ":%s: (directive option)"
 msgstr ":%s: (mundësi direktive)"
 
-#: sphinx/domains/rst.py:213
+#: sphinx/domains/rst.py:214
 #, python-format
 msgid "%s (role)"
 msgstr "%s (rol)"
 
-#: sphinx/domains/rst.py:222
+#: sphinx/domains/rst.py:223
 msgid "directive"
 msgstr "direktivë"
 
-#: sphinx/domains/rst.py:223
+#: sphinx/domains/rst.py:224
 msgid "directive-option"
 msgstr ""
 
-#: sphinx/domains/rst.py:224
+#: sphinx/domains/rst.py:225
 msgid "role"
 msgstr "rol"
 
-#: sphinx/domains/rst.py:246
+#: sphinx/domains/rst.py:247
 #, python-format
 msgid "duplicate description of %s %s, other instance in %s"
 msgstr "përshkrim i përsëdytur %s %s, instancë tjetër te %s"
@@ -2289,7 +2289,7 @@ msgid "Search Page"
 msgstr "Faqe Kërkimesh"
 
 #: sphinx/domains/std.py:647 sphinx/domains/std.py:751
-#: sphinx/ext/autosectionlabel.py:43
+#: sphinx/ext/autosectionlabel.py:44
 #, python-format
 msgid "duplicate label %s, other instance in %s"
 msgstr "etiketë %s e përsëdytur, tjetër instancë te %s"
@@ -2299,36 +2299,36 @@ msgstr "etiketë %s e përsëdytur, tjetër instancë te %s"
 msgid "duplicate %s description of %s, other instance in %s"
 msgstr "përshkrim %s i përsëdytur për %s, tjetër instancë te %s"
 
-#: sphinx/domains/std.py:866
+#: sphinx/domains/std.py:868
 msgid "numfig is disabled. :numref: is ignored."
 msgstr "numfig është i çaktivizuar. :numref: është shpërfillur."
 
-#: sphinx/domains/std.py:874
+#: sphinx/domains/std.py:876
 #, python-format
 msgid "Failed to create a cross reference. Any number is not assigned: %s"
 msgstr "S’u arrit të krijohej një ndërreferencë. S’u caktua ndonjë numër: %s"
 
-#: sphinx/domains/std.py:886
+#: sphinx/domains/std.py:888
 #, python-format
 msgid "the link has no caption: %s"
 msgstr "lidhja s’ka titull: %s"
 
-#: sphinx/domains/std.py:900
+#: sphinx/domains/std.py:902
 #, python-format
 msgid "invalid numfig_format: %s (%r)"
 msgstr "numfig_format i pavlefshëm: %s (%r)"
 
-#: sphinx/domains/std.py:903
+#: sphinx/domains/std.py:905
 #, python-format
 msgid "invalid numfig_format: %s"
 msgstr "numfig_format i pavlefshëm: %s"
 
-#: sphinx/domains/std.py:1116
+#: sphinx/domains/std.py:1122
 #, python-format
 msgid "undefined label: %r"
 msgstr "etiketë e papërkufizuar: %r"
 
-#: sphinx/domains/std.py:1118
+#: sphinx/domains/std.py:1124
 #, python-format
 msgid "Failed to create a cross reference. A title or caption not found: %r"
 msgstr "S’u arrit të krijohet ndërreferencë. S’u gjet një titull, ose një përshkrim: %r"
@@ -2429,7 +2429,7 @@ msgstr "kartelë figure %s jo e lexueshme: %s"
 msgid "download file not readable: %s"
 msgstr "kartelë shkarkimi jo e lexueshme: %s"
 
-#: sphinx/environment/collectors/toctree.py:214
+#: sphinx/environment/collectors/toctree.py:217
 #, python-format
 msgid "%s is already assigned section numbers (nested numbered toctree?)"
 msgstr ""
@@ -2593,43 +2593,43 @@ msgstr "klasë python e padokumentuar: %s :: %s"
 msgid "undocumented python method: %s :: %s :: %s"
 msgstr "metodë python e padokumentuar: %s :: %s :: %s"
 
-#: sphinx/ext/doctest.py:117
+#: sphinx/ext/doctest.py:111
 #, python-format
 msgid "missing '+' or '-' in '%s' option."
 msgstr "mungon '+' ose '-' te mundësia '%s'."
 
-#: sphinx/ext/doctest.py:122
+#: sphinx/ext/doctest.py:116
 #, python-format
 msgid "'%s' is not a valid option."
 msgstr "'%s' s’është mundësi e vlefshme."
 
-#: sphinx/ext/doctest.py:136
+#: sphinx/ext/doctest.py:130
 #, python-format
 msgid "'%s' is not a valid pyversion option"
 msgstr "'%s' s’është mundësi pyversion e vlefshme"
 
-#: sphinx/ext/doctest.py:219
+#: sphinx/ext/doctest.py:213
 msgid "invalid TestCode type"
 msgstr "lloj TestCode i pavlefshëm"
 
-#: sphinx/ext/doctest.py:277
+#: sphinx/ext/doctest.py:271
 #, python-format
 msgid ""
 "Testing of doctests in the sources finished, look at the results in "
 "%(outdir)s/output.txt."
 msgstr "Testimi i doctests-eve te burimet përfundoi, shihni te përfundimet në %(outdir)s/output.txt."
 
-#: sphinx/ext/doctest.py:427
+#: sphinx/ext/doctest.py:421
 #, python-format
 msgid "no code/output in %s block at %s:%s"
 msgstr "s’ka kod/dhënie te blloku %s në %s:%s"
 
-#: sphinx/ext/doctest.py:513
+#: sphinx/ext/doctest.py:507
 #, python-format
 msgid "ignoring invalid doctest code: %r"
 msgstr "po shpërfillet kod “doctest” i pavlefshëm: %r"
 
-#: sphinx/ext/duration.py:71
+#: sphinx/ext/duration.py:72
 msgid ""
 "====================== slowest reading durations ======================="
 msgstr "=================== kohëzgjatjet më të ngadalta të leximit ==================="
@@ -2714,7 +2714,7 @@ msgstr "[grafik: %s]"
 msgid "[graph]"
 msgstr "[grafik]"
 
-#: sphinx/ext/imgconverter.py:33
+#: sphinx/ext/imgconverter.py:34
 #, python-format
 msgid ""
 "Unable to run the image conversion command %r. 'sphinx.ext.imgconverter' requires ImageMagick by default. Ensure it is installed, or set the 'image_converter' option to a custom conversion command.\n"
@@ -2722,7 +2722,7 @@ msgid ""
 "Traceback: %s"
 msgstr "S’arrihet të xhirohet urdhri %r. për shndërrim figure. Si parazgjedhje, 'sphinx.ext.imgconverter' lyp ImageMagick. Sigurohuni se është i instaluar, ose për mundësinë 'image_converter' caktoni një urdhër vetjak shndërrimi .\n\nTraceback: %s"
 
-#: sphinx/ext/imgconverter.py:42 sphinx/ext/imgconverter.py:66
+#: sphinx/ext/imgconverter.py:43 sphinx/ext/imgconverter.py:67
 #, python-format
 msgid ""
 "convert exited with error:\n"
@@ -2732,7 +2732,7 @@ msgid ""
 "%r"
 msgstr "shndërrimi përfundoi me gabimin:\n[stderr]\n%r\n[stdout]\n%r"
 
-#: sphinx/ext/imgconverter.py:61
+#: sphinx/ext/imgconverter.py:62
 #, python-format
 msgid "convert command %r cannot be run, check the image_converter setting"
 msgstr "s’mund të xhirohet urdhër shndërrimi %r, kontrolloni rregullimin image_converter"
@@ -2891,7 +2891,7 @@ msgstr "nënshkrim i pavlefshëm për auto%s (%r)"
 msgid "error while formatting arguments for %s: %s"
 msgstr "gabim gjatë formatimi argumentesh për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:629 sphinx/ext/autodoc/__init__.py:1692
+#: sphinx/ext/autodoc/__init__.py:629 sphinx/ext/autodoc/__init__.py:1693
 #, python-format
 msgid "missing attribute %s in object %s"
 msgstr "atribut %s që mungon te objekt %s"
@@ -2921,66 +2921,66 @@ msgstr ""
 msgid "error while formatting signature for %s: %s"
 msgstr "gabim gjatë formatimi nënshkrimesh për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:999
+#: sphinx/ext/autodoc/__init__.py:1000
 msgid "\"::\" in automodule name doesn't make sense"
 msgstr "\"::\" në emër automoduli nuk ka kuptim"
 
-#: sphinx/ext/autodoc/__init__.py:1006
+#: sphinx/ext/autodoc/__init__.py:1007
 #, python-format
 msgid "signature arguments or return annotation given for automodule %s"
 msgstr ""
 
-#: sphinx/ext/autodoc/__init__.py:1019
+#: sphinx/ext/autodoc/__init__.py:1020
 #, python-format
 msgid ""
 "__all__ should be a list of strings, not %r (in module %s) -- ignoring "
 "__all__"
 msgstr "__all__ should duhet të jetë një listë vargjesh, jo %r (në module %s) -- ignoring __all__"
 
-#: sphinx/ext/autodoc/__init__.py:1085
+#: sphinx/ext/autodoc/__init__.py:1086
 #, python-format
 msgid ""
 "missing attribute mentioned in :members: option: module %s, attribute %s"
 msgstr "u përmend atribut që mungon në :members: mundësi: modul %s, atributi %s"
 
-#: sphinx/ext/autodoc/__init__.py:1286 sphinx/ext/autodoc/__init__.py:1363
-#: sphinx/ext/autodoc/__init__.py:2772
+#: sphinx/ext/autodoc/__init__.py:1287 sphinx/ext/autodoc/__init__.py:1364
+#: sphinx/ext/autodoc/__init__.py:2773
 #, python-format
 msgid "Failed to get a function signature for %s: %s"
 msgstr "S’u arrit të merret një nënshkrim funksioni për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1556
+#: sphinx/ext/autodoc/__init__.py:1557
 #, python-format
 msgid "Failed to get a constructor signature for %s: %s"
 msgstr "S’u arrit të merrej nënshkrim konstruktori për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1678
+#: sphinx/ext/autodoc/__init__.py:1679
 #, python-format
 msgid "Bases: %s"
 msgstr "Baza: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1779 sphinx/ext/autodoc/__init__.py:1857
-#: sphinx/ext/autodoc/__init__.py:1880
+#: sphinx/ext/autodoc/__init__.py:1780 sphinx/ext/autodoc/__init__.py:1858
+#: sphinx/ext/autodoc/__init__.py:1881
 #, python-format
 msgid "alias of %s"
 msgstr "alias për %s"
 
-#: sphinx/ext/autodoc/__init__.py:1924
+#: sphinx/ext/autodoc/__init__.py:1925
 #, python-format
 msgid "alias of TypeVar(%s)"
 msgstr "alias për TypeVar(%s)"
 
-#: sphinx/ext/autodoc/__init__.py:2163 sphinx/ext/autodoc/__init__.py:2260
+#: sphinx/ext/autodoc/__init__.py:2164 sphinx/ext/autodoc/__init__.py:2261
 #, python-format
 msgid "Failed to get a method signature for %s: %s"
 msgstr "S’u arrit të merre një nënshkrim metode për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:2391
+#: sphinx/ext/autodoc/__init__.py:2392
 #, python-format
 msgid "Invalid __slots__ found on %s. Ignored."
 msgstr "U gjet __slots__ i pavlefshëm në %s. U shpërfill."
 
-#: sphinx/ext/autodoc/preserve_defaults.py:116
+#: sphinx/ext/autodoc/preserve_defaults.py:117
 #, python-format
 msgid "Failed to parse a default argument value for %r: %s"
 msgstr "S’u arrit të përtypej një vlerë parazgjedhje argumenti për %r: %s"
@@ -3029,12 +3029,12 @@ msgstr "s’u arrit të përtypej emri %s"
 msgid "failed to import object %s"
 msgstr "s’u arrit të importohej objekti %s"
 
-#: sphinx/ext/autosummary/__init__.py:792
+#: sphinx/ext/autosummary/__init__.py:795
 #, python-format
 msgid "autosummary_generate: file not found: %s"
 msgstr "autosummary_generate: s’u gjet kartelë: %s"
 
-#: sphinx/ext/autosummary/__init__.py:800
+#: sphinx/ext/autosummary/__init__.py:803
 msgid ""
 "autosummary generats .rst files internally. But your source_suffix does not "
 "contain .rst. Skipped."
@@ -3167,43 +3167,43 @@ msgstr "shprehje vargu e keqformuar (mungon thonjëz mbyllëse): %s"
 msgid "malformed string literal (missing opening quote): %s"
 msgstr "shprehje vargu e keqformuar (mungon thonjëz hapëse): %s"
 
-#: sphinx/locale/__init__.py:244
+#: sphinx/locale/__init__.py:249
 msgid "Attention"
 msgstr "Vëmendje"
 
-#: sphinx/locale/__init__.py:245
+#: sphinx/locale/__init__.py:250
 msgid "Caution"
 msgstr "Kujdes"
 
-#: sphinx/locale/__init__.py:246
+#: sphinx/locale/__init__.py:251
 msgid "Danger"
 msgstr "Rrezik"
 
-#: sphinx/locale/__init__.py:247
+#: sphinx/locale/__init__.py:252
 msgid "Error"
 msgstr "Gabim"
 
-#: sphinx/locale/__init__.py:248
+#: sphinx/locale/__init__.py:253
 msgid "Hint"
 msgstr "Ndihmëz"
 
-#: sphinx/locale/__init__.py:249
+#: sphinx/locale/__init__.py:254
 msgid "Important"
 msgstr "E rëndësishme"
 
-#: sphinx/locale/__init__.py:250
+#: sphinx/locale/__init__.py:255
 msgid "Note"
 msgstr "Shënim"
 
-#: sphinx/locale/__init__.py:251
+#: sphinx/locale/__init__.py:256
 msgid "See also"
 msgstr "Shihni edhe"
 
-#: sphinx/locale/__init__.py:252
+#: sphinx/locale/__init__.py:257
 msgid "Tip"
 msgstr "Ndihmëz"
 
-#: sphinx/locale/__init__.py:253
+#: sphinx/locale/__init__.py:258
 msgid "Warning"
 msgstr "Sinjalizim"
 
